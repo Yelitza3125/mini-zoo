@@ -12,20 +12,24 @@ h1 {
 }
 
 nav {
-    background-color: #c727c7;
     width: 100%;
+    margin-left: 50px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 20px auto;
-    width: 30%;
+nav select {
+    color: #fff;
+    background-color: #c727c7;
+    font-size: 16px;
+    margin-top: 10px;
+    
 }
 
-nav ul li {
-    text-align: center;
+nav select option {
+    color: #fff;
     font-family: 'Cabin', sans-serif;   
+    font-size: 16px;
 }
+
 
 main {
     width: 70%;
