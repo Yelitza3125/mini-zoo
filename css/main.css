@@ -23,5 +23,23 @@ nav ul {
 }
 
 nav ul li {
+    text-align: center;
     font-family: 'Cabin', sans-serif;   
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+}
+
+figure {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+figure img {
+    width: 100%; 
 }
