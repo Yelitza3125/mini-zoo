@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
   var image = document.getElementsByClassName('animal');
   var select = document.getElementById('select');
-  select.addEventListener('change', function() {
+  select.addEventListener('change', function changeFilter(event) {
     for (var i = 0; i < image.length; i++) {
       if (select.value === 'original') {
         image[i].classList.remove('black-white');
