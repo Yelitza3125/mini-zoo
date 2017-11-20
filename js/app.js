@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', function load() {
   var image = document.getElementsByClassName('animal');
   var select = document.getElementById('select');
   select.addEventListener('change', function changeFilter(event) {
